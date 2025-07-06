@@ -5,7 +5,7 @@ const projects = [
     title: "Chat Application",
     description:
       "A real-time chat app with user auth, Firebase backend, and responsive design.",
-    image: "./public/chat-bot.png",
+    image: "/chat-bot.png",
     link: "https://your-chat-app.netlify.app",
   },
   {
@@ -26,7 +26,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="w-full py-20 px-6 text-white bg-transparent">
+    <section id="Projects" className="w-full py-20 px-6 text-white bg-transparent">
       <h2 className="text-4xl font-bold text-center mb-16">My Projects</h2>
 
       <div className="flex flex-col gap-20 max-w-6xl mx-auto">
